@@ -217,6 +217,44 @@ streamlit run app.py
 
 Open the localhost URL displayed in your terminal.
 
+
+## How to Run the Project
+
+### 1. Clone the repository
+
+git clone https://github.com/jagadeeshwarreddy-03/multi-city-air-quality-prediction.git
+
+cd multi-city-air-quality-prediction
+
+### 2. Create a virtual environment
+
+python -m venv venv
+
+### 3. Activate the virtual environment
+
+Windows:
+
+venv\Scripts\activate
+
+Linux / macOS:
+
+source venv/bin/activate
+
+### 4. Install dependencies
+
+pip install -r requirements.txt
+
+### 5. Download the dataset
+
+Download the India Daily Weather and Air Quality dataset from Kaggle.
+
+Place the required CSV files in the dataset folder.
+
+### 6. Run the Streamlit dashboard
+
+streamlit run app.py
+
+
 ## Conclusion
 
 The project demonstrates how Machine Learning and time-series feature engineering can be used to forecast next-day PM2.5 levels across multiple Indian cities.
